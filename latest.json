@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-beta.5",
+  "version": "0.1.0-beta.6",
   "notes": "Trusted desktop beta for Windows (NSIS) and macOS (universal DMG).\n\nIn-app updates: Settings → General → Check for updates (or the launch prompt).\nOS installers may still be unsigned; updater signatures are separate (Tauri minisign).\nSee project_notes/BETA_TESTING.md for SmartScreen / Gatekeeper notes.",
-  "pub_date": "2026-07-23T22:10:44.485Z",
+  "pub_date": "2026-07-24T19:17:33.864Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNEFRdUxqTW5OU0U0MUdUREhnaXRUTnNLRmx1TTdQVEtOdGUxT2ZPeXpIUzROT3I4VXF2V2JnZTY3anhBUnc4NHFsSmRKQ1lnQ2plUHpjUyt3c1drdEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODQ0NjQwCWZpbGU6U3RlbGFXYXJlXzAuMS4wLWJldGEuNV94NjQtc2V0dXAuZXhlCnJPNElBdlcvV0k5SkU2YWJ3TXlncGFBWUloQ2ljS05VVFp0UDJWZnh1VWYrZm9OR0pMMEFiQzA0UEx1V2x1YnNDY0s4UDJ3eHlrSjEvNkpWb0luT0RnPT0K",
-      "url": "https://github.com/StelaWare/stelaware-releases/releases/download/v0.1.0-beta.5/StelaWare_0.1.0-beta.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElOdFh5Skd0S1hJMm5RUGM3SnRCT0ZQQXJuT3lQV2Q2MXNCSlZvM0lOcGpBc2hJVEdpYzdpK3lnM1BQM0FtZGovU3RJcnhnQ0tSMTBKTmNBeStFY0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTIwNjUwCWZpbGU6U3RlbGFXYXJlXzAuMS4wLWJldGEuNl94NjQtc2V0dXAuZXhlCjhFbHBZd2lKQ2VkYTRTNjZkLzlFZkpMQjd3dFRTelpNb1FSUGpSenlXVStEa1V1QXZ4ZlVwY2NJUTV5L3BoV1p6d0ZkdUd6cE90clZJcTZaUGhJRUJBPT0K",
+      "url": "https://github.com/StelaWare/stelaware-releases/releases/download/v0.1.0-beta.6/StelaWare_0.1.0-beta.6_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNEFRdUxqTW5OU0U0MUdUREhnaXRUTnNLRmx1TTdQVEtOdGUxT2ZPeXpIUzROT3I4VXF2V2JnZTY3anhBUnc4NHFsSmRKQ1lnQ2plUHpjUyt3c1drdEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODQ0NjQwCWZpbGU6U3RlbGFXYXJlXzAuMS4wLWJldGEuNV94NjQtc2V0dXAuZXhlCnJPNElBdlcvV0k5SkU2YWJ3TXlncGFBWUloQ2ljS05VVFp0UDJWZnh1VWYrZm9OR0pMMEFiQzA0UEx1V2x1YnNDY0s4UDJ3eHlrSjEvNkpWb0luT0RnPT0K",
-      "url": "https://github.com/StelaWare/stelaware-releases/releases/download/v0.1.0-beta.5/StelaWare_0.1.0-beta.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElOdFh5Skd0S1hJMm5RUGM3SnRCT0ZQQXJuT3lQV2Q2MXNCSlZvM0lOcGpBc2hJVEdpYzdpK3lnM1BQM0FtZGovU3RJcnhnQ0tSMTBKTmNBeStFY0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTIwNjUwCWZpbGU6U3RlbGFXYXJlXzAuMS4wLWJldGEuNl94NjQtc2V0dXAuZXhlCjhFbHBZd2lKQ2VkYTRTNjZkLzlFZkpMQjd3dFRTelpNb1FSUGpSenlXVStEa1V1QXZ4ZlVwY2NJUTV5L3BoV1p6d0ZkdUd6cE90clZJcTZaUGhJRUJBPT0K",
+      "url": "https://github.com/StelaWare/stelaware-releases/releases/download/v0.1.0-beta.6/StelaWare_0.1.0-beta.6_x64-setup.exe"
     }
   }
 }
