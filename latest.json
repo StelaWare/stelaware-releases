@@ -1,35 +1,35 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "notes": "StelaWare 1.0 desktop builds for Windows (NSIS) and macOS (universal DMG).\n\nIn-app updates: Settings → General → Check for updates (or the launch prompt).\nWindows installers are signed with Azure Artifact Signing when CI secrets are set.\nmacOS builds are Developer ID signed and notarized when Apple secrets are set.\nUpdater signatures are separate (Tauri minisign).\nSee project_notes/BETA_TESTING.md for SmartScreen / Gatekeeper notes.\n",
-  "pub_date": "2026-08-20T05:04:13.000Z",
+  "pub_date": "2026-08-20T05:40:34.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNFBWRWZTcmdrd0lFQWFnbERpVUlvYjRNcDA3NXpEUmFWTTFGek01Y3YxZzhWZGdwU05KemhzUlBJRkZveXp5RkFsZ3NSekxwR1hrQ2tOYTdVbExkSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAxMjUzCWZpbGU6U3RlbGFXYXJlXzEuMC40X3g2NC1zZXR1cC5leGUKWWJyUzFNQ2EzZ0RaSnN1Z1VpamhaTXlwRWo0algyMGJMdmMySGoxTzA5S1ZMNHNuYi9VT21mUjVTTDhGSnE3anpybXBnMTlMdDdvYmZyY2FyYWFRQXc9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_1.0.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNFA3Y3UwOE00Y1pNdkV5eTFRMGcrNHhBcUVuM0Q0SFFFSm9MUGRoSnByM3hEQXpNQmJqYS9Kd0hMQ2xWT01uaXJHY2crRVowZU1Wd08xZktybWw5eUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjA0Mzk5CWZpbGU6U3RlbGFXYXJlXzEuMC41X3g2NC1zZXR1cC5leGUKNU13UGpwTkJtcHRBelYwdnZMRzc0NXZKc1RhQWgxbTFvQU51eEUvMlBsVUk2UTZ6c3YzRmd2Y3ptdldGQ2FuaU5MbjlJdFcyODNwWlExbDVHQ1FmQ0E9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_1.0.5_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNFBWRWZTcmdrd0lFQWFnbERpVUlvYjRNcDA3NXpEUmFWTTFGek01Y3YxZzhWZGdwU05KemhzUlBJRkZveXp5RkFsZ3NSekxwR1hrQ2tOYTdVbExkSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAxMjUzCWZpbGU6U3RlbGFXYXJlXzEuMC40X3g2NC1zZXR1cC5leGUKWWJyUzFNQ2EzZ0RaSnN1Z1VpamhaTXlwRWo0algyMGJMdmMySGoxTzA5S1ZMNHNuYi9VT21mUjVTTDhGSnE3anpybXBnMTlMdDdvYmZyY2FyYWFRQXc9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_1.0.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNFA3Y3UwOE00Y1pNdkV5eTFRMGcrNHhBcUVuM0Q0SFFFSm9MUGRoSnByM3hEQXpNQmJqYS9Kd0hMQ2xWT01uaXJHY2crRVowZU1Wd08xZktybWw5eUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjA0Mzk5CWZpbGU6U3RlbGFXYXJlXzEuMC41X3g2NC1zZXR1cC5leGUKNU13UGpwTkJtcHRBelYwdnZMRzc0NXZKc1RhQWgxbTFvQU51eEUvMlBsVUk2UTZ6c3YzRmd2Y3ptdldGQ2FuaU5MbjlJdFcyODNwWlExbDVHQ1FmQ0E9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_1.0.5_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElueUVPbGM1YTNtb2t1SDFNdkpGUU9FWVk4VE11UTNwb3JjTDI5cTZzQ1ZaZnFvb3pmOERpTnZaWE0rVW52MmtZejBUeExDYktRc1BZL2c0d1B5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAyMjI4CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKY3JsYUgvZlhRU3R5Z3IxbnBoTWgzTEpnV2ZkY2Q3UWxlejlaMkQ2S1JYNzcwVnpUNWl6OVcySUtYalRZYndZS2RxUHBVRzV0VGtqTS9VTWl6Vy90Q1E9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNE95YkRGbCtVSVpmMUltUzh4ZW9IUkNPT1Z1L1QxS29RZ1ZMbDh2amNyakZiOCtZZFZkS0U3VlZNZmJpQzJLV0RUTXZwODN4THRNU2hkZzNvQTQ4eUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAzMjc2CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKU3ZuMlpLaDBITytJbmFHU2x0K1Zoa1FVWVQxMFR6eVV0dTR0c2N6ZlpzSWpSdVZVNDNVWXBEeG00N1FWc3M5R2VmQ0F4NFp2S2lqbk5yQVJHY3FaQ2c9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElueUVPbGM1YTNtb2t1SDFNdkpGUU9FWVk4VE11UTNwb3JjTDI5cTZzQ1ZaZnFvb3pmOERpTnZaWE0rVW52MmtZejBUeExDYktRc1BZL2c0d1B5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAyMjI4CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKY3JsYUgvZlhRU3R5Z3IxbnBoTWgzTEpnV2ZkY2Q3UWxlejlaMkQ2S1JYNzcwVnpUNWl6OVcySUtYalRZYndZS2RxUHBVRzV0VGtqTS9VTWl6Vy90Q1E9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNE95YkRGbCtVSVpmMUltUzh4ZW9IUkNPT1Z1L1QxS29RZ1ZMbDh2amNyakZiOCtZZFZkS0U3VlZNZmJpQzJLV0RUTXZwODN4THRNU2hkZzNvQTQ4eUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAzMjc2CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKU3ZuMlpLaDBITytJbmFHU2x0K1Zoa1FVWVQxMFR6eVV0dTR0c2N6ZlpzSWpSdVZVNDNVWXBEeG00N1FWc3M5R2VmQ0F4NFp2S2lqbk5yQVJHY3FaQ2c9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_universal.app.tar.gz"
     },
     "darwin-universal": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElueUVPbGM1YTNtb2t1SDFNdkpGUU9FWVk4VE11UTNwb3JjTDI5cTZzQ1ZaZnFvb3pmOERpTnZaWE0rVW52MmtZejBUeExDYktRc1BZL2c0d1B5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAyMjI4CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKY3JsYUgvZlhRU3R5Z3IxbnBoTWgzTEpnV2ZkY2Q3UWxlejlaMkQ2S1JYNzcwVnpUNWl6OVcySUtYalRZYndZS2RxUHBVRzV0VGtqTS9VTWl6Vy90Q1E9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNE95YkRGbCtVSVpmMUltUzh4ZW9IUkNPT1Z1L1QxS29RZ1ZMbDh2amNyakZiOCtZZFZkS0U3VlZNZmJpQzJLV0RUTXZwODN4THRNU2hkZzNvQTQ4eUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAzMjc2CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKU3ZuMlpLaDBITytJbmFHU2x0K1Zoa1FVWVQxMFR6eVV0dTR0c2N6ZlpzSWpSdVZVNDNVWXBEeG00N1FWc3M5R2VmQ0F4NFp2S2lqbk5yQVJHY3FaQ2c9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElueUVPbGM1YTNtb2t1SDFNdkpGUU9FWVk4VE11UTNwb3JjTDI5cTZzQ1ZaZnFvb3pmOERpTnZaWE0rVW52MmtZejBUeExDYktRc1BZL2c0d1B5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAyMjI4CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKY3JsYUgvZlhRU3R5Z3IxbnBoTWgzTEpnV2ZkY2Q3UWxlejlaMkQ2S1JYNzcwVnpUNWl6OVcySUtYalRZYndZS2RxUHBVRzV0VGtqTS9VTWl6Vy90Q1E9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNE95YkRGbCtVSVpmMUltUzh4ZW9IUkNPT1Z1L1QxS29RZ1ZMbDh2amNyakZiOCtZZFZkS0U3VlZNZmJpQzJLV0RUTXZwODN4THRNU2hkZzNvQTQ4eUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAzMjc2CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKU3ZuMlpLaDBITytJbmFHU2x0K1Zoa1FVWVQxMFR6eVV0dTR0c2N6ZlpzSWpSdVZVNDNVWXBEeG00N1FWc3M5R2VmQ0F4NFp2S2lqbk5yQVJHY3FaQ2c9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNElueUVPbGM1YTNtb2t1SDFNdkpGUU9FWVk4VE11UTNwb3JjTDI5cTZzQ1ZaZnFvb3pmOERpTnZaWE0rVW52MmtZejBUeExDYktRc1BZL2c0d1B5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAyMjI4CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKY3JsYUgvZlhRU3R5Z3IxbnBoTWgzTEpnV2ZkY2Q3UWxlejlaMkQ2S1JYNzcwVnpUNWl6OVcySUtYalRZYndZS2RxUHBVRzV0VGtqTS9VTWl6Vy90Q1E9PQo=",
-      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.4/StelaWare_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbTIzTDlWMXhVNE95YkRGbCtVSVpmMUltUzh4ZW9IUkNPT1Z1L1QxS29RZ1ZMbDh2amNyakZiOCtZZFZkS0U3VlZNZmJpQzJLV0RUTXZwODN4THRNU2hkZzNvQTQ4eUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjAzMjc2CWZpbGU6U3RlbGFXYXJlLmFwcC50YXIuZ3oKU3ZuMlpLaDBITytJbmFHU2x0K1Zoa1FVWVQxMFR6eVV0dTR0c2N6ZlpzSWpSdVZVNDNVWXBEeG00N1FWc3M5R2VmQ0F4NFp2S2lqbk5yQVJHY3FaQ2c9PQo=",
+      "url": "https://github.com/stelaware/stelaware-releases/releases/download/v1.0.5/StelaWare_universal.app.tar.gz"
     }
   }
 }
