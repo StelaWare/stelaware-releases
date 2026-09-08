@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-07",
+  "providers": {
+    "ollama": {
+      "recommended": "llama3.2",
+      "options": [
+        {
+          "id": "llama3.2",
+          "label": "Llama 3.2",
+          "freeFriendly": true,
+          "softCap": 2800
+        }
+      ],
+      "retired": []
+    },
+    "groq": {
+      "recommended": "llama-3.3-70b-versatile",
+      "options": [
+        {
+          "id": "llama-3.3-70b-versatile",
+          "label": "Llama 3.3 70B",
+          "freeFriendly": true,
+          "softCap": 6000
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "label": "Llama 3.1 8B Instant",
+          "freeFriendly": true,
+          "softCap": 3500
+        }
+      ],
+      "retired": []
+    },
+    "gemini": {
+      "recommended": "gemini-3.1-flash-lite",
+      "options": [
+        {
+          "id": "gemini-3.1-flash-lite",
+          "label": "Gemini 3.1 Flash Lite",
+          "freeFriendly": true,
+          "softCap": 3500
+        },
+        {
+          "id": "gemini-3.5-flash-lite",
+          "label": "Gemini 3.5 Flash Lite",
+          "freeFriendly": true,
+          "softCap": 3500
+        },
+        {
+          "id": "gemini-3.6-flash",
+          "label": "Gemini 3.6 Flash",
+          "freeFriendly": true,
+          "softCap": 6000
+        },
+        {
+          "id": "gemini-2.5-flash",
+          "label": "Gemini 2.5 Flash",
+          "freeFriendly": true,
+          "softCap": 6000
+        },
+        {
+          "id": "gemini-2.5-flash-lite",
+          "label": "Gemini 2.5 Flash Lite (legacy)",
+          "freeFriendly": false,
+          "softCap": 3500
+        },
+        {
+          "id": "gemini-2.5-pro",
+          "label": "Gemini 2.5 Pro",
+          "freeFriendly": false,
+          "softCap": 9000
+        }
+      ],
+      "retired": [
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite",
+        "gemini-2.0-flash-001",
+        "gemini-2.5-flash-lite"
+      ]
+    },
+    "openai": {
+      "recommended": "gpt-4o-mini",
+      "options": [
+        {
+          "id": "gpt-4o-mini",
+          "label": "GPT-4o mini",
+          "freeFriendly": false,
+          "softCap": 3500
+        }
+      ],
+      "retired": []
+    },
+    "anthropic": {
+      "recommended": "claude-3-5-haiku-latest",
+      "options": [
+        {
+          "id": "claude-3-5-haiku-latest",
+          "label": "Claude 3.5 Haiku",
+          "freeFriendly": false,
+          "softCap": 3500
+        },
+        {
+          "id": "claude-3-5-sonnet-latest",
+          "label": "Claude 3.5 Sonnet",
+          "freeFriendly": false,
+          "softCap": 9000
+        },
+        {
+          "id": "claude-3-opus-latest",
+          "label": "Claude 3 Opus",
+          "freeFriendly": false,
+          "softCap": 9000
+        }
+      ],
+      "retired": []
+    },
+    "xai": {
+      "recommended": "grok-2-latest",
+      "options": [
+        {
+          "id": "grok-2-latest",
+          "label": "Grok 2",
+          "freeFriendly": false,
+          "softCap": 6000
+        }
+      ],
+      "retired": []
+    },
+    "openrouter": {
+      "recommended": "openai/gpt-4o-mini",
+      "options": [
+        {
+          "id": "openai/gpt-4o-mini",
+          "label": "GPT-4o mini",
+          "freeFriendly": false,
+          "softCap": 3500
+        }
+      ],
+      "retired": []
+    }
+  }
+}
