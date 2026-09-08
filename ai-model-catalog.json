@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-08",
   "providers": {
     "ollama": {
       "recommended": "llama3.2",
@@ -80,49 +80,117 @@
       ]
     },
     "openai": {
-      "recommended": "gpt-4o-mini",
+      "recommended": "gpt-5.6-terra",
       "options": [
+        {
+          "id": "gpt-5.6-sol",
+          "label": "GPT-5.6 Sol",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "gpt-5.6-terra",
+          "label": "GPT-5.6 Terra",
+          "freeFriendly": false,
+          "softCap": 6000,
+          "group": "Paid API"
+        },
+        {
+          "id": "gpt-5.6-luna",
+          "label": "GPT-5.6 Luna",
+          "freeFriendly": false,
+          "softCap": 3500,
+          "group": "Paid API"
+        },
         {
           "id": "gpt-4o-mini",
           "label": "GPT-4o mini",
-          "freeFriendly": false,
-          "softCap": 3500
+          "freeFriendly": true,
+          "softCap": 3500,
+          "group": "Lower cost"
         }
       ],
       "retired": []
     },
     "anthropic": {
-      "recommended": "claude-3-5-haiku-latest",
+      "recommended": "claude-sonnet-5",
       "options": [
+        {
+          "id": "claude-fable-5-1",
+          "label": "Claude Fable 5.1",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "claude-fable-5",
+          "label": "Claude Fable 5",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "claude-opus-5",
+          "label": "Claude Opus 5",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "claude-sonnet-5",
+          "label": "Claude Sonnet 5",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "claude-haiku-4-5",
+          "label": "Claude Haiku 4.5",
+          "freeFriendly": false,
+          "softCap": 3500,
+          "group": "Lower cost"
+        },
         {
           "id": "claude-3-5-haiku-latest",
           "label": "Claude 3.5 Haiku",
-          "freeFriendly": false,
-          "softCap": 3500
+          "freeFriendly": true,
+          "softCap": 3500,
+          "group": "Lower cost"
         },
         {
           "id": "claude-3-5-sonnet-latest",
           "label": "Claude 3.5 Sonnet",
-          "freeFriendly": false,
-          "softCap": 9000
-        },
-        {
-          "id": "claude-3-opus-latest",
-          "label": "Claude 3 Opus",
-          "freeFriendly": false,
-          "softCap": 9000
+          "freeFriendly": true,
+          "softCap": 9000,
+          "group": "Lower cost"
         }
       ],
       "retired": []
     },
     "xai": {
-      "recommended": "grok-2-latest",
+      "recommended": "grok-4.6",
       "options": [
+        {
+          "id": "grok-4.6",
+          "label": "Grok 4.6",
+          "freeFriendly": false,
+          "softCap": 9000,
+          "group": "Paid API"
+        },
+        {
+          "id": "grok-4.5",
+          "label": "Grok 4.5",
+          "freeFriendly": false,
+          "softCap": 6000,
+          "group": "Paid API"
+        },
         {
           "id": "grok-2-latest",
           "label": "Grok 2",
-          "freeFriendly": false,
-          "softCap": 6000
+          "freeFriendly": true,
+          "softCap": 6000,
+          "group": "Lower cost"
         }
       ],
       "retired": []
